@@ -1,0 +1,143 @@
+<style>
+/* Header to keep tings in place */
+
+html {
+    background-color: black;
+}
+
+body {
+    font-family: Arial;
+    background-color: rgb(255, 255, 255);
+}
+
+#card {
+    background-color: rgb(255, 255, 255);
+    font-family: Arial;
+    padding: 20px;
+    margin-top: 20px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: lightskyblue;
+    box-shadow: 8px 5px 2px rgb(218, 215, 215);
+}
+
+#card2 {
+    background-color: rgb(255, 255, 255);
+    font-family: Arial;
+    padding: 20px;
+    margin-top: 20px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(218, 215, 215);
+    box-shadow: 8px 5px 2px lightskyblue;
+}
+
+#card h1 {
+    color: lightskyblue;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+}
+
+#card2 h1 {
+    color: lightskyblue;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+}
+
+#card::after {
+    content: "\a";
+    white-space: pre;
+}
+
+#card::after {
+    content: "\a";
+    white-space: pre;
+}
+
+.header {
+    padding: 14px 16px;
+    overflow: hidden;
+    background-color: white;
+}
+
+
+/* Add a black background color to the top navigation */
+
+.topnav {
+    padding-top: 40px;
+    overflow: hidden;
+    padding-bottom: 40px;
+}
+
+
+/* Style the links inside the navigation bar */
+
+.topnav a {
+    float: left;
+    color: #050505;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+
+/* Change the color of links on hover */
+
+.topnav a:hover {
+    background-color: rgba(223, 223, 223, 0.788);
+    color: black;
+}
+
+
+/* Add a color to the active/current link */
+
+.topnav a.active {
+    background-color: lightskyblue;
+    color: black;
+}
+
+.topnav a.input [type=text] {
+    float: right;
+    padding-left: 20px;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+
+#wrapper {
+    max-width: 2000px;
+    margin: 0px auto;
+}
+
+#side-bar {
+    background-color: #ffffff;
+    width: 10%;
+    float: left;
+}
+
+#site-logo {
+    padding-left: 30px;
+    border-radius: 80px 80px;
+}
+
+.side-wrap {
+    font-size: 16px;
+    margin: 10px 0;
+    padding: 15px;
+}
+
+#main-body {
+    width: 85%;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+    float: left;
+}
+
+</style>
